@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Expedisi Megatama | Makassar – Mamasa</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:'Poppins',sans-serif;
+      background:#f5f7fb;
+      color:#333;
+    }
+    header{
+      background:linear-gradient(135deg,#0d47a1,#1e88e5);
+      color:#fff;
+      padding:80px 20px 100px;
+      text-align:center;
+      position:relative;
+    }
+    header::after{
+      content:"";
+      position:absolute;
+      bottom:-1px;left:0;right:0;
+      height:60px;
+      background:#f5f7fb;
+      border-top-left-radius:40px;
+      border-top-right-radius:40px;
+    }
+    header img{max-width:160px;margin-bottom:20px}
+    header h1{font-size:42px;margin:10px 0}
+    header p{font-size:18px;opacity:.95}
+    .btn{
+      display:inline-block;
+      margin-top:20px;
+      padding:14px 30px;
+      background:#ffca28;
+      color:#333;
+      border-radius:30px;
+      font-weight:600;
+      text-decoration:none;
+      box-shadow:0 6px 20px rgba(0,0,0,.15)
+    }
+    .container{
+      max-width:1150px;
+      margin:auto;
+      padding:40px 20px
+    }
+    .section{margin-bottom:70px}
+    .section h2{
+      text-align:center;
+      font-size:32px;
+      color:#0d47a1;
+      margin-bottom:40px
+    }
+    .about{text-align:center;max-width:800px;margin:auto;font-size:17px;line-height:1.7}
+    .grid{display:grid;gap:25px}
+    .grid-3{grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+    .card{
+      background:#fff;
+      border-radius:18px;
+      padding:30px;
+      text-align:center;
+      box-shadow:0 10px 30px rgba(0,0,0,.08)
+    }
+    .card h3{color:#1e88e5;margin-bottom:10px}
+    .armada img{
+      width:100%;
+      border-radius:24px;
+      box-shadow:0 12px 40px rgba(0,0,0,.2)
+    }
+    .info-box{
+      background:#fff;
+      border-radius:20px;
+      padding:30px;
+      box-shadow:0 10px 30px rgba(0,0,0,.08)
+    }
+    .info-box p{font-size:16px;line-height:1.8}
+    iframe{border:0;border-radius:16px;width:100%}
+    .cta{
+      background:linear-gradient(135deg,#1e88e5,#42a5f5);
+      color:#fff;
+      padding:70px 20px;
+      text-align:center;
+      border-radius:30px
+    }
+    .cta h2{color:#fff;margin-bottom:15px}
+    footer{
+      background:#0d47a1;
+      color:#fff;
+      text-align:center;
+      padding:25px;
+      margin-top:60px
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo-expedisi-mega-tama.png" alt="Logo Expedisi Mega Tama">
+  <h1>Expedisi Megatama</h1>
+  <p>Jasa Pengiriman Aman & Terpercaya<br>Rute Makassar – Mamasa</p>
+  <a href="https://wa.me/6285242881282" class="btn">💬 Order via WhatsApp</a>
+</header>
+
+<div class="container">
+
+  <section class="section">
+    <h2>Tentang Kami</h2>
+    <p class="about">
+      Expedisi Megatama adalah jasa pengiriman profesional khusus rute Makassar – Mamasa.
+      Kami melayani pengiriman barang kecil hingga besar dengan armada handal, aman,
+      dan harga kompetitif.
+    </p>
+  </section>
+
+  <section class="section armada">
+    <h2>Armada Kami</h2>
+    <img src="armada-expedisi-mega-tama.jpg" alt="Armada Expedisi Mega Tama">
+  </section>
+
+  <section class="section">
+    <h2>Layanan Unggulan</h2>
+    <div class="grid grid-3">
+      <div class="card"><h3>Reguler</h3><p>Pengiriman cepat & aman setiap hari.</p></div>
+      <div class="card"><h3>Barang Besar</h3><p>Material bangunan & muatan besar.</p></div>
+      <div class="card"><h3>Door to Door</h3><p>Jemput & antar langsung ke tujuan.</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Lokasi & Jam Operasional</h2>
+    <div class="grid grid-3">
+      <div class="info-box">
+        <p>
+          <strong>Alamat:</strong><br>
+          Jl. Teuku Umar 13 No.2 90212, Makassar<br><br>
+          <strong>Jam:</strong> 08.30 – 17.30 WITA<br>
+          <strong>Hari:</strong> Senin – Sabtu<br>
+          <strong>Tutup:</strong> Minggu & Tanggal Merah
+        </p>
+        <a href="https://www.google.com/maps?q=Jl.%20Teuku%20Umar%2013%20Makassar" class="btn" target="_blank">📍 Buka di Google Maps</a>
+      </div>
+      <div style="grid-column:span 2">
+        <iframe height="320" src="https://www.google.com/maps?q=Jl.%20Teuku%20Umar%2013%20Makassar&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Siap Kirim Barang Anda?</h2>
+    <p>Hubungi kami sekarang dan dapatkan layanan terbaik.</p>
+    <a href="https://wa.me/6285242881282" class="btn">🚚 Hubungi Sekarang</a>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 Expedisi Megatama. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
