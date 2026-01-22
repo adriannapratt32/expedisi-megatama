@@ -39,15 +39,6 @@
       filter: drop-shadow(0 10px 25px rgba(0,0,0,0.35));
       animation: zoomIn 1s ease;
     }
-    @keyframes zoomIn {
-      from {
-        transform: scale(0.8);
-        opacity: 0;
-      }
-      to {
-        transform: scale(1);
-        opacity: 1;
-      }
     header h1{font-size:42px;margin:10px 0}
     header p{font-size:18px;opacity:.95}
     .btn{
@@ -84,15 +75,15 @@
       box-shadow:0 10px 30px rgba(0,0,0,.08)
     }
     .card h3{color:#1e88e5;margin-bottom:10px}
-    .armada img{
-      width: 100%;
-      max-width: 300px;   
-      height: auto;
-      border-radius: 14px;
-      display: block;
-      margin: 15px auto;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-    }
+   .armada img{
+     width: auto;          
+     max-width: 260px;     
+     height: auto;
+     border-radius: 14px;
+     display: block;
+     margin: 20px auto;
+     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+   }
       @media (max-width: 600px){
         .armada img{
           max-width: 90%;
@@ -144,8 +135,10 @@
   </section>
 
   <section class="section armada">
-    <h2>Armada Kami</h2>
+  <h2>Armada Kami</h2>
+  <div class="armada-img">
     <img src="armada-expedisi-mega-tama.jpg" alt="Armada Expedisi Mega Tama">
+  </div>
   </section>
 
   <section class="section">
