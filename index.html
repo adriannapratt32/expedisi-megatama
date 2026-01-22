@@ -29,7 +29,22 @@
       border-top-left-radius:40px;
       border-top-right-radius:40px;
     }
-    header img{max-width:300px;margin-bottom:20px}
+    header img{
+      width: 280px;
+      max-width: 80%;
+      margin-bottom: 30px;
+      filter: drop-shadow(0 10px 25px rgba(0,0,0,0.35));
+      animation: zoomIn 1s ease;
+    }
+    @keyframes zoomIn {
+      from {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
     header h1{font-size:42px;margin:10px 0}
     header p{font-size:18px;opacity:.95}
     .btn{
