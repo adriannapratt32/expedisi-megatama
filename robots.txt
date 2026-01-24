@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://adriannapratt32.github.io/sitemap.xml
+Sitemap: https://adriannapratt32.github.io/expedisi-megatama/sitemap.xml
